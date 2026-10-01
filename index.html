@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Absento — Support &amp; Privacy</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    --ground: #F2F2F7;
+    --ink: #1C1C1E;
+    --sub: #6C6C70;
+    --accent: #2F5BFF;
+    --rule: #C6C6C8;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --ground: #000000;
+      --ink: #F2F2F7;
+      --sub: #98989F;
+      --accent: #7A96FF;
+      --rule: #38383A;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 0 24px 96px;
+    background: var(--ground); color: var(--ink);
+    font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  main { max-width: 640px; margin: 0 auto; }
+  header { padding: 72px 0 32px; }
+  .kicker {
+    font: 700 15px/1 ui-rounded, -apple-system, sans-serif;
+    color: var(--accent); margin: 0 0 14px;
+  }
+  h1 { font: 700 34px/1.2 ui-rounded, -apple-system, sans-serif; margin: 0 0 10px; }
+  h2 {
+    font: 700 24px/1.25 ui-rounded, -apple-system, sans-serif;
+    margin: 56px 0 12px; padding-top: 28px; border-top: 1px solid var(--rule);
+  }
+  h3 { font-size: 18px; font-weight: 600; margin: 28px 0 6px; }
+  .quiet { color: var(--sub); }
+  ul { padding-left: 20px; }
+  li { margin: 6px 0; }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .lang { float: right; font-size: 15px; }
+  footer { margin-top: 64px; padding-top: 24px; border-top: 1px solid var(--rule); font-size: 13px; color: var(--sub); }
+  @media (max-width: 520px) { h1 { font-size: 28px; } body { font-size: 16px; } }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <a class="lang" href="tr/" hreflang="tr">Türkçe</a>
+    <p class="kicker">Absento</p>
+    <h1>Support</h1>
+    <p class="quiet">An attendance tracker for university students: for every course, how
+    many more classes you can skip.</p>
+  </header>
+
+  <h2>Getting help</h2>
+  <p>Write with your iPhone model, iOS version, and what you were doing when it
+  happened. A screenshot helps.</p>
+  <p><strong>Contact:</strong> <a href="mailto:ysf.isk@outlook.com">ysf.isk@outlook.com</a></p>
+
+  <h2>Questions that come up</h2>
+
+  <h3>Why don't I mark the classes I attend?</h3>
+  <p>Attending is the default. Absento counts every scheduled class as attended unless
+  you mark it skipped, so on days you miss nothing you don't need to open the app.</p>
+
+  <h3>A class was cancelled, or there is a holiday.</h3>
+  <p>Open the course and mark that session Cancelled. For a holiday, add it in Settings ▸
+  Holidays. Cancelled sessions and holidays drop out of the count, and a percentage rule
+  is recalculated from the sessions that are left.</p>
+
+  <h3>I had a medical report for several days.</h3>
+  <p>Use “+” ▸ Mark days… on the Courses screen, choose the date range and Excused.
+  Whether an excused absence counts as a skip is set per course, in the course form.</p>
+
+  <h3>Some rows were missing after importing a screenshot.</h3>
+  <p>Text is read on your iPhone, and a blurred or cropped row can be missed; Absento
+  tells you how many rows it couldn't read. Add the missing times from the course form,
+  or press and hold on the Timetable to draw a class in.</p>
+
+  <h3>What is Absento Pro?</h3>
+  <p>A one-time purchase. It unlocks ten more themes, each with its own app icon, the
+  Joker icon, and the This Week widget. Everything else stays free: tracking, reminders,
+  importing, the other widgets and Siri. There is no subscription.</p>
+
+  <h3>I bought Absento Pro but it shows as locked.</h3>
+  <p>Open Settings ▸ Restore Purchases, signed in with the Apple Account you bought it
+  with. This also brings Pro back after you reinstall Absento or move to a new iPhone.</p>
+
+  <h3>How do I get a refund?</h3>
+  <p>Purchases are handled by Apple, so refunds are too: request one at
+  reportaproblem.apple.com. If Absento Pro is refunded, a locked theme falls back to
+  Cobalt; your courses are not affected.</p>
+
+  <h3>The widget says “No courses yet.”</h3>
+  <p>The widget shows a summary that Absento writes each time something changes. Open
+  Absento once and the widget follows.</p>
+
+  <h3>Can I use it in Turkish?</h3>
+  <p>Yes. Absento follows your iPhone language; English and Turkish are included.</p>
+
+  <h2 id="privacy">Privacy Policy</h2>
+  <p class="quiet">Last updated: 1 October 2026</p>
+  <p>Absento keeps track of the classes you miss and counts how many more you can skip.
+  Everything it needs to do that stays on your iPhone.</p>
+
+  <h3>What Absento stores</h3>
+  <ul>
+    <li>Your courses: name, code, attendance rule, weekly times and rooms.</li>
+    <li>The sessions you mark: skipped, excused, cancelled.</li>
+    <li>Your semester dates and holidays.</li>
+    <li>Your settings: theme, appearance, app icon and notification choices.</li>
+    <li>Whether you own Absento Pro, as a single yes or no.</li>
+  </ul>
+
+  <h3>Where it is stored</h3>
+  <p>On your iPhone, in the app's own storage. A short summary (your courses, the skips
+  left and this week's classes) is also written to a shared app group container so the
+  widgets can draw it. That container is on your iPhone too, and only Absento and its
+  widgets can read it. Like any app's data, it is included in your iPhone backup if you
+  back up your device.</p>
+
+  <h3>What leaves your iPhone</h3>
+  <p><strong>Nothing.</strong> Absento has no servers, no accounts and no sign-in. It
+  contains no networking code, no analytics, no advertising, no tracking and no
+  third-party SDKs. It does not track you across other apps or websites.</p>
+
+  <h3>Calendar</h3>
+  <p>Absento asks for calendar access only when you choose Import from Calendar. It reads
+  your events once, on your iPhone, to suggest courses from events that repeat every
+  week. It writes nothing to your calendar and keeps only the courses you choose to
+  import.</p>
+
+  <h3>Photos and files</h3>
+  <p>When you import a timetable from a screenshot or photo, you pick the images with the
+  system photo picker; Absento sees only the images you pick. Their text is recognised
+  on your iPhone with Apple's Vision framework, and the images are not saved. Calendar
+  (.ics) and timetable PDF files you choose are read the same way, on your iPhone.</p>
+
+  <h3>Purchases</h3>
+  <p>Absento Pro is bought through the App Store. Apple handles the payment; Absento
+  never sees your payment details, name or email address. To know whether Pro is
+  unlocked, Absento asks the App Store on your iPhone for your purchase, verifies it
+  there, and keeps only the yes or no. The purchase record itself is kept by Apple under
+  Apple's privacy policy.</p>
+
+  <h3>Notifications and Siri</h3>
+  <p>Reminders are local notifications, scheduled and delivered by your iPhone; no
+  notification server is involved. Siri and Shortcuts actions run inside Absento on your
+  iPhone; Apple's own privacy policy covers how Siri handles your voice.</p>
+
+  <h3>Deleting your data</h3>
+  <p>Delete a single course from its screen. Deleting Absento removes everything it
+  stored, including the widget summary.</p>
+
+  <h3>Children</h3>
+  <p>Absento collects no personal information from anyone, of any age.</p>
+
+  <h3>Changes</h3>
+  <p>If this policy changes, the updated version will be published here and the date
+  above will change with it.</p>
+
+  <h3>Contact</h3>
+  <p>Questions about this policy:
+  <a href="mailto:ysf.isk@outlook.com">ysf.isk@outlook.com</a></p>
+
+  <footer>Absento 1.0</footer>
+</main>
+</body>
+</html>
